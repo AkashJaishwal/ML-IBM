@@ -3,7 +3,9 @@ import pandas as pd
 filepath = 'D:\\Acadamic\\ML IBM\\Week 2\\CS 21-25.csv'
 
 #import the data
-data = pd.read_csv(filepath) # 'data' is a variable which store the value in it form the filepath
+# data = pd.read_csv(filepath) # 'data' is a variable which store the value in it form the filepath
+
+data = pd.read_csv(filepath, names=['Roll NO.', 'Student Name', 'Program']) #used to specify the heading of the column or to give the name to the coumn 
 
 #print a few rows 
 print (data.iloc[:5]) #we have accessed the file data and printed the rows
