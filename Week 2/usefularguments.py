@@ -8,6 +8,8 @@ data = pd.read_csv(filepath) # 'data' is a variable which store the value in it 
 #print a few rows 
 print (data.iloc[:5]) #we have accessed the file data and printed the rows
 
+## Useful arguements 
+
 # # Different delimiters - tab-separated file (.tsv):
 # data = pd.read_csv(filepath, sep='\t')
 
