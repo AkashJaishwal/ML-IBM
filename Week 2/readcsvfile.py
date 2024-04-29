@@ -7,3 +7,6 @@ data = pd.read_csv(filepath) # 'data' is a variable which store the value in it 
 
 #print a few rows 
 print (data.iloc[:5]) #we have accessed the file data and printed the rows
+
+#write data to new file or existing
+data.to_json('Week 2\\cs21-25.json')
