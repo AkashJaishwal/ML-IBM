@@ -1,0 +1,9 @@
+import pandas as pd 
+
+filepath = 'D:\\Acadamic\\ML IBM\\Week 2\\CS 21-25.csv'
+
+#import the data
+data = pd.read_csv(filepath) # 'data' is a variable which store the value in it form the filepath
+
+#print a few rows 
+print (data.iloc[:5]) #we have accessed the file data and printed the rows
