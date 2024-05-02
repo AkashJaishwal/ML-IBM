@@ -49,4 +49,4 @@ observations_generator = pds.read_sql(query,
 for index, observations in enumerate(observations_generator):
     if index < 5:
         print(f'Observations index: {index}'.format(index))
-        display(observations)
+        print(observations)
